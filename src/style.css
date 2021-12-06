@@ -1,0 +1,9 @@
+.center {
+  text-align: center;
+}
+
+.sign-up-section {
+  border: 1px solid greenyellow;
+  background-color: greenyellow;
+  padding: 30px 50px;
+}

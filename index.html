@@ -11,6 +11,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/style.css" />
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -28,6 +29,11 @@
     ></script>
   </head>
   <body>
+    <div class="center">
+      <h1>Finders Keepers</h1>
+      <p>find the one for you...</p>
+    </div>
+
     <div
       id="carouselExampleControls"
       class="carousel slide"
@@ -40,6 +46,9 @@
             src="images/roomates.jpg"
             alt="First slide"
           />
+          <div class="carousel-caption d-none d-md-block">
+            <p>Find your next roommate</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img
@@ -47,6 +56,9 @@
             src="images/friend.jpg"
             alt="Second slide"
           />
+          <div class="carousel-caption d-none d-md-block">
+            <p>Find a friend</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img
@@ -54,6 +66,9 @@
             src="images/lovers.jpg"
             alt="Third slide"
           />
+          <div class="carousel-caption d-none d-md-block">
+            <p>Find a lover</p>
+          </div>
         </div>
       </div>
       <a
@@ -75,20 +90,22 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <h1>Finders Keepers</h1>
-    <p>find the one for you...</p>
-    <h3>Find your next roommate, friend or partner</h3>
-    <h2>Sign Up</h2>
-    <form action="">
-      <input
-        type="email"
-        placeholder="Enter your email address"
-        required
-        autocomplete="off"
-      />
-    </form>
-    <button>Next</button>
-    <p>Already have an account? <a href="#">Login in</a>.</p>
-    <script src="app.js"></script>
+
+    <div class="card border-primary w-50">
+      <div class="card-body">
+        <h2>Sign Up</h2>
+        <form action="">
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            required
+            autocomplete="off"
+          />
+        </form>
+        <button class="btn">Next</button>
+        <p>Already have an account? <a href="#">Login in</a>.</p>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
