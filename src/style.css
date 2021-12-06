@@ -1,9 +1,24 @@
+body {
+  margin: 40px 0;
+}
+
 .center {
   text-align: center;
 }
 
 .sign-up-section {
-  border: 1px solid greenyellow;
-  background-color: greenyellow;
-  padding: 30px 50px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 45%;
+}
+
+.log-in-section {
+  margin-top: 15px;
+}
+
+.footer {
+  background-color: grey;
+  margin: 0;
+  margin-top: 20px;
 }
