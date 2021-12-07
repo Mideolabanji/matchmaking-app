@@ -91,9 +91,13 @@ a {
 }
 
 .socials a:hover {
-  color: var(--accent-color);
+  color: black;
 }
 
 .email:hover {
-  color: var(--accent-color);
+  color: black;
+}
+
+.log-in-link:hover {
+  color: black;
 }
