@@ -35,7 +35,10 @@
     >
       <div class="container-fluid">
         <i class="fas fa-heart heart"></i>
-        <a class="navbar-brand h1 company-name" href="index.html"
+        <a
+          class="navbar-brand h1 company-name"
+          href="index.html"
+          title="Finders Keepers"
           >Finders Keepers</a
         >
         <button
@@ -53,31 +56,39 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul">
             <li class="nav-item">
               <a
+                title="Home"
                 class="nav-link active nav-text"
                 id="homeLink"
                 aria-current="page"
                 href="index.html"
-                >Home</a
               >
+                Home
+              </a>
             </li>
             <li class="nav-item">
               <a
+                title="About"
                 class="nav-link nav-text"
                 href="index.html#about"
                 id="aboutLink"
-                >About</a
               >
+                About
+              </a>
             </li>
             <li class="nav-item">
               <a
+                title="Contact"
                 class="nav-link nav-text"
                 href="index.html#contact"
                 id="contactLink"
-                >Contact</a
               >
+                Contact
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-text sign-up-color">Login</a>
+              <a href="#" title="Login" class="nav-link nav-text sign-up-color">
+                Login
+              </a>
             </li>
           </ul>
         </div>
@@ -96,6 +107,7 @@
                 type="radio"
                 name="findersKeepers"
                 id="lookingToFindFriend"
+                value="friend"
                 required
               />
               Friend
@@ -106,6 +118,7 @@
                 type="radio"
                 name="findersKeepers"
                 id="lookingToFindRoomate"
+                value="roommate"
                 required
               />
               Roomate
@@ -116,6 +129,7 @@
                 type="radio"
                 name="findersKeepers"
                 id="lookingToFindLover"
+                value="lover"
                 required
               />
               Lover
@@ -142,14 +156,18 @@
             />
           </div>
           <a href="sign-up.html">
-            <button type="submit" class="btn btn-dark btn-block">
+            <button
+              type="submit"
+              class="btn btn-dark btn-block"
+              title="Sign Up"
+            >
               Sign Up
             </button>
           </a>
         </form>
         <p class="log-in-section">
           Already have an account?
-          <a href="#" class="log-in-link">Login in</a>
+          <a href="#" class="log-in-link" title="Login">Login</a>
         </p>
       </div>
     </div>
