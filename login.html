@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up - Finders Keepers</title>
+    <title>Login - Finders Keepers</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -85,13 +85,13 @@
                 Contact
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item pink-nav-item">
               <a
-                href="login.html"
-                title="Login"
+                href="index.html#sign-up"
+                title="Sign Up"
                 class="nav-link nav-text pink-nav-item"
               >
-                Login
+                Sign Up
               </a>
             </li>
           </ul>
@@ -99,9 +99,88 @@
       </div>
     </nav>
 
-    <div class="card sign-up-section rounded" id="sign-up">
+    <div class="hero">
+      <div class="container center">
+        <div class="row">
+          <div class="col-6">
+            <h1>
+              Connect with a friend, lover or roommate at your fingertips,
+              without leaving the comfort of your home.
+            </h1>
+            <p class="column-paragraph">
+              There's someone for everyone; find the one for you here.
+            </p>
+            <a href="login.html#login">
+              <button class="btn sign-up-btn" title="Login">Login</button>
+            </a>
+          </div>
+          <div
+            id="carouselExampleCaptions"
+            class="col-6 carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img
+                  src="images/roomates.jpg"
+                  class="d-block w-100"
+                  alt="Roomates"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Find your next roommate</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img
+                  src="images/friend.jpg"
+                  class="d-block w-100"
+                  alt="Friends"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Find a friend</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img
+                  src="images/lovers.jpg"
+                  class="d-block w-100"
+                  alt="Lovers"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Find a lover</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card sign-up-section rounded" id="login">
       <div class="card-body">
-        <h2>Almost there, Mide</h2>
+        <h2>Welcome back!</h2>
         <form action="sign-up.html" id="index-form">
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
@@ -114,38 +193,26 @@
             />
           </div>
           <div class="form-group">
-            <label for="setPassword">Set Password</label>
+            <label for="inputPassword">Password</label>
             <input
               type="password"
               class="form-control"
-              id="setPassword"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="confirmPassword">Confirm Password</label>
-            <input
-              type="email"
-              class="form-control"
-              id="confirmPassword"
+              id="inputPassword"
               autocomplete="off"
               required
             />
           </div>
           <a href="sign-up.html">
-            <button
-              type="submit"
-              class="btn btn-dark btn-block"
-              title="Sign Up"
-            >
-              Sign Up
+            <button type="submit" class="btn btn-dark btn-block" title="Login">
+              Login
             </button>
           </a>
         </form>
         <p class="log-in-section">
-          Already have an account?
-          <a href="login.html#login" class="log-in-link" title="Login">Login</a>
+          Do not have an account?
+          <a href="index.html#sign-up" class="log-in-link" title="Sign Up">
+            Sign Up
+          </a>
         </p>
       </div>
     </div>

@@ -78,7 +78,7 @@ h1 {
   font-size: 18px;
   font-weight: 600;
 }
-.sign-up-color {
+.pink-nav-item {
   color: #fe4689 !important;
 }
 
@@ -100,4 +100,9 @@ a {
 
 .log-in-link:hover {
   color: black;
+}
+
+.pink-nav-item:hover {
+  transition: all 200ms ease-in-out;
+  color: black !important;
 }

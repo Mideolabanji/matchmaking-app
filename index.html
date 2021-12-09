@@ -87,7 +87,12 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-text sign-up-color" title="Login">Login</a>
+              <a
+                href="login.html"
+                class="nav-link nav-text pink-nav-item"
+                title="Login"
+                >Login</a
+              >
             </li>
           </ul>
         </div>
@@ -198,11 +203,57 @@
             />
           </div>
           <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
+            <label for="lastName">Who are you looking to find?</label>
+            <br />
+            <label for="lookingToFindFriend">
+              <input
+                type="radio"
+                name="findersKeepers"
+                id="lookingToFindFriend"
+                value="friend"
+                required
+              />
+              Friend
+            </label>
+            <br />
+            <label for="lookingToFindRoomate">
+              <input
+                type="radio"
+                name="findersKeepers"
+                id="lookingToFindRoomate"
+                value="roommate"
+                required
+              />
+              Roomate
+            </label>
+            <br />
+            <label for="lookingToFindlover">
+              <input
+                type="radio"
+                name="findersKeepers"
+                id="lookingToFindLover"
+                value="lover"
+                required
+              />
+              Lover
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="firstName">First name</label>
             <input
-              type="email"
+              type="text"
               class="form-control"
-              id="exampleFormControlInput1"
+              id="firstName"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lastName"
               autocomplete="off"
               required
             />
@@ -215,7 +266,7 @@
         </form>
         <p class="log-in-section">
           Already have an account?
-          <a href="#" class="log-in-link" title="Login">Login</a>
+          <a href="login.html" class="log-in-link" title="Login">Login</a>
         </p>
       </div>
     </div>
