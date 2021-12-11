@@ -59,7 +59,7 @@ h1 {
   background-color: var(--accent-color);
 }
 
-.log-in-section {
+.sign-in-section {
   margin-top: 15px;
 }
 
@@ -98,7 +98,7 @@ a {
   color: black;
 }
 
-.log-in-link:hover {
+.sign-in-link:hover {
   color: black;
 }
 
