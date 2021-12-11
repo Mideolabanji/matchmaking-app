@@ -107,3 +107,7 @@ a {
   transition: all 200ms ease-in-out;
   color: black !important;
 }
+
+.black-link:hover {
+  color: black;
+}
