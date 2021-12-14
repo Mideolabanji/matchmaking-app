@@ -26,3 +26,9 @@ let underlineContactLink = document.querySelector("#contactLink");
 underlineHomeLink.addEventListener("click", underlineHome);
 underlineAboutLink.addEventListener("click", underlineAbout);
 underlineContactLink.addEventListener("click", underlineContact);
+
+let greetUser = document.querySelector("#name");
+greetUser.innerHTML = `Almost there, ${window.location.search.slice(
+  11,
+  -18
+)}...`;

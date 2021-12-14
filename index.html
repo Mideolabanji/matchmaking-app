@@ -181,21 +181,22 @@
     <div class="card sign-up-section rounded" id="sign-up">
       <div class="card-body">
         <h2>Sign Up</h2>
-        <form action="sign-up.html" id="index-form">
+        <form action="sign-up.html" id="index-form" method="GET">
           <div class="form-group">
             <label for="firstName">First name</label>
             <input
-              type="text"
+              type="search"
               class="form-control"
-              id="firstName"
+              id=""
               autocomplete="off"
+              name="firstName"
               required
             />
           </div>
           <div class="form-group">
             <label for="lastName">Last name</label>
             <input
-              type="text"
+              type="search"
               class="form-control"
               id="lastName"
               autocomplete="off"
@@ -210,7 +211,6 @@
                 type="radio"
                 name="findersKeepers"
                 id="lookingToFindFriend"
-                value="friend"
                 required
               />
               Friend
@@ -221,7 +221,6 @@
                 type="radio"
                 name="findersKeepers"
                 id="lookingToFindRoommate"
-                value="roommate"
                 required
               />
               Roommate
@@ -232,7 +231,6 @@
                 type="radio"
                 name="findersKeepers"
                 id="lookingToFindLover"
-                value="lover"
                 required
               />
               Lover
