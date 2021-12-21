@@ -32,3 +32,13 @@ greetUser.innerHTML = `Almost there, ${window.location.search.slice(
   11,
   -18
 )}...`;
+
+function darkmode() {
+  let element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
+function dashboardDarkmode() {
+  let element = document.body;
+  element.classList.toggle("dashboard-dark-mode");
+}

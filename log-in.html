@@ -96,6 +96,9 @@
             </li>
           </ul>
         </div>
+        <a>
+          <i class="fas fa-moon night-icon" onclick="darkmode()"></i>
+        </a>
       </div>
     </nav>
 
@@ -110,8 +113,8 @@
             <p class="column-paragraph">
               There's someone for everyone; find the one for you here.
             </p>
-            <a href="sign-in.html#sign-in">
-              <button class="btn sign-up-btn" title="Sign in">Sign in</button>
+            <a href="log-in.html#log-in">
+              <button class="btn sign-up-btn" title="LOg in">Log in</button>
             </a>
           </div>
           <div
@@ -178,7 +181,7 @@
       </div>
     </div>
 
-    <div class="card sign-up-section rounded" id="sign-in">
+    <div class="card sign-up-section rounded" id="log-in">
       <div class="card-body">
         <h2>Welcome back!</h2>
         <form action="dashboard.html">
@@ -202,13 +205,9 @@
               required
             />
           </div>
-          <a href="dashboard.html">
-            <button
-              type="submit"
-              class="btn btn-dark btn-block"
-              title="Sign in"
-            >
-              Sign in
+          <a href="dashboard.html" class="forward-btn">
+            <button type="submit" class="btn btn-dark btn-block" title="Log in">
+              Log in
             </button>
           </a>
         </form>
