@@ -34,7 +34,7 @@
       style="background-color: #fec0d0"
     >
       <div class="container-fluid">
-        <i class="fas fa-heart heart"></i>
+        <i class="fas fa-moon night-icon" onclick="darkmode()"></i>
         <a
           class="navbar-brand h1 company-name"
           href="index.html"
@@ -96,194 +96,175 @@
             </li>
           </ul>
         </div>
-        <a>
-          <i class="fas fa-moon night-icon" onclick="darkmode()"></i>
-        </a>
       </div>
     </nav>
 
-    <div class="hero">
-      <div class="container center">
-        <div class="row">
-          <div
-            id="carouselExampleCaptions"
-            class="col-sm-6 carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="4000">
-                <img
-                  src="images/roomates.jpg"
-                  class="d-block w-100"
-                  alt="Roomates"
-                />
-                <div class="carousel-caption">
-                  <h5>Find your next roommate</h5>
+    <div class="black-font">
+      <div class="hero">
+        <div class="container center">
+          <div class="row">
+            <div
+              id="carouselExampleCaptions"
+              class="col-sm-6 carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img
+                    src="images/roomates.jpg"
+                    class="d-block w-100"
+                    alt="Roomates"
+                  />
+                  <div class="carousel-caption">
+                    <h5>Find your next roommate</h5>
+                  </div>
                 </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img
-                  src="images/friend.jpg"
-                  class="d-block w-100"
-                  alt="Friends"
-                />
-                <div class="carousel-caption">
-                  <h5>Find a friend</h5>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img
+                    src="images/friend.jpg"
+                    class="d-block w-100"
+                    alt="Friends"
+                  />
+                  <div class="carousel-caption">
+                    <h5>Find a friend</h5>
+                  </div>
                 </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img
-                  src="images/lovers.jpg"
-                  class="d-block w-100"
-                  alt="Lovers"
-                />
-                <div class="carousel-caption">
-                  <h5>Find a lover</h5>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img
+                    src="images/lovers.jpg"
+                    class="d-block w-100"
+                    alt="Lovers"
+                  />
+                  <div class="carousel-caption">
+                    <h5>Find a lover</h5>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6">
-            <h1>
-              Connect with a friend, lover or roommate at your fingertips,
-              without leaving the comfort of your home.
-            </h1>
-            <p class="column-paragraph">
-              There's someone for everyone; find the one for you here.
-            </p>
-            <a href="log-in.html#log-in">
-              <button class="btn sign-up-btn" title="Log in">Log in</button>
-            </a>
+            <div class="col-sm-6">
+              <h1>
+                Connect with a friend, lover or roommate at your fingertips,
+                without leaving the comfort of your home.
+              </h1>
+              <p class="column-paragraph">
+                There's someone for everyone; find the one for you here.
+              </p>
+              <a href="log-in.html#log-in">
+                <button class="btn sign-up-btn" title="Log in">Log in</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="card sign-up-section rounded" id="log-in">
-      <div class="card-body">
-        <h2>Welcome back!</h2>
-        <form action="dashboard.html">
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="inputPassword">Password</label>
-            <input
-              type="password"
-              class="form-control"
-              id="inputPassword"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <a href="dashboard.html" class="forward-btn">
-            <button type="submit" class="btn btn-dark btn-block" title="Log in">
-              Log in
-            </button>
-          </a>
-        </form>
-        <p class="sign-in-section">
-          Don't have an account?
-          <a href="index.html#sign-up" class="sign-in-link" title="Sign Up">
-            Sign Up here
-          </a>
-        </p>
+      <div class="card sign-up-section rounded" id="log-in">
+        <div class="card-body">
+          <h2>Welcome back!</h2>
+          <form action="dashboard.html">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="inputPassword">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <a href="dashboard.html" class="forward-btn">
+              <button
+                type="submit"
+                class="btn btn-dark btn-block"
+                title="Log in"
+              >
+                Log in
+              </button>
+            </a>
+          </form>
+          <p class="log-in-section">
+            Don't have an account?
+            <a href="index.html#sign-up" class="log-in-link" title="Sign up">
+              Sign Up here
+            </a>
+          </p>
+        </div>
       </div>
-    </div>
 
-    <footer class="row footer">
-      <div class="col-sm-4" id="about">
-        <h5>About us</h5>
-        <p>
-          This is a fake
-          <a
-            href="https://github.com/Mideolabanji/matchmaking-app"
-            class="black-link"
-            target="_blank"
-            title="Github repository"
-          >
-            open source
-          </a>
-          matchmaking app/website, using fake data, coded by
-          <a
-            href="https://ecstatic-volhard-31db0c.netlify.app/"
-            class="black-link"
-            target="_blank"
-            title="Portfolio"
-          >
-            Olamide Olabanji
-          </a>
-          , a Front-end developer based in Lagos, Nigeria.
-        </p>
-      </div>
-      <div class="col-sm-4" id="contact">
-        <h5>Contact us</h5>
-        <p>
-          <a
-            href="https://ecstatic-volhard-31db0c.netlify.app/"
-            class="black-link"
-            target="_blank"
-            title="Portfolio"
-          >
-            Olamide Olabanji
-          </a>
-          can be contacted at
-          <a href="mailto:olabanjikaosara@yahoo.com" class="email">
-            olabanjikaosara@yahoo.com
-          </a>
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <h5>Socials</h5>
-        <p class="socials">
-          Github:
-          <a href="https://github.com/Mideolabanji" target="_blank">
-            Mideolabanji
-          </a>
-        </p>
-        <p class="socials">
-          Twitter:
-          <a href="https://twitter.com/mideolabanji" target="_blank">
-            mideolabanji
-          </a>
-        </p>
-        <p class="socials">
-          Instagram:
-          <a href="https://instagram.com/mideolabanji" target="_blank">
-            mideolabanji
-          </a>
-        </p>
-      </div>
-    </footer>
+      <footer class="row footer">
+        <div class="col-sm-4" id="about">
+          <h5>About us</h5>
+          <p>
+            This is a fake
+            <a
+              href="https://github.com/Mideolabanji/matchmaking-app"
+              class="black-link"
+              target="_blank"
+              title="Github repository"
+            >
+              open source
+            </a>
+            matchmaking app/website, using fake data, coded by
+            <a
+              href="https://ecstatic-volhard-31db0c.netlify.app/"
+              class="black-link"
+              target="_blank"
+              title="Portfolio"
+            >
+              Olamide Olabanji
+            </a>
+            , a Front-end developer based in Lagos, Nigeria.
+          </p>
+        </div>
+        <div class="col-sm-4" id="contact">
+          <h5>Contact us</h5>
+          <p>
+            <a
+              href="https://ecstatic-volhard-31db0c.netlify.app/"
+              class="black-link"
+              target="_blank"
+              title="Portfolio"
+            >
+              Olamide Olabanji
+            </a>
+            can be contacted at
+            <a href="mailto:olabanjikaosara@yahoo.com" class="email">
+              olabanjikaosara@yahoo.com
+            </a>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5>Socials</h5>
+          <p class="socials">
+            Github:
+            <a href="https://github.com/Mideolabanji" target="_blank">
+              Mideolabanji
+            </a>
+          </p>
+          <p class="socials">
+            Twitter:
+            <a href="https://twitter.com/mideolabanji" target="_blank">
+              mideolabanji
+            </a>
+          </p>
+          <p class="socials">
+            Instagram:
+            <a href="https://instagram.com/mideolabanji" target="_blank">
+              mideolabanji
+            </a>
+          </p>
+        </div>
+      </footer>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>

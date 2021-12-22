@@ -34,7 +34,7 @@
       style="background-color: #fec0d0"
     >
       <div class="container-fluid">
-        <i class="fas fa-heart heart"></i>
+        <i class="fas fa-moon night-icon" onclick="darkmode()"></i>
         <a
           class="navbar-brand h1 company-name"
           href="index.html"
@@ -96,129 +96,128 @@
             </li>
           </ul>
         </div>
-        <a>
-          <i class="fas fa-moon night-icon" onclick="darkmode()"></i>
-        </a>
       </div>
     </nav>
 
-    <div class="card sign-up-section rounded form-body" id="sign-up">
-      <div class="card-body">
-        <h2 id="name">Almost there, Mide</h2>
-        <form action="dashboard.html">
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="setPassword">Set Password</label>
-            <input
-              type="password"
-              class="form-control"
-              id="setPassword"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="confirmPassword">Confirm Password</label>
-            <input
-              type="password"
-              class="form-control"
-              id="confirmPassword"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <a href="dashboard.html" class="forward-btn">
-            <button
-              type="submit"
-              class="btn btn-dark btn-block"
-              title="Sign Up"
+    <div class="black-font">
+      <div class="card sign-up-section rounded form-body" id="sign-up">
+        <div class="card-body">
+          <h2 id="name">Almost there...</h2>
+          <form action="dashboard.html">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="setPassword">Set Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="setPassword"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="confirmPassword">Confirm Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="confirmPassword"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <a href="dashboard.html" class="forward-btn">
+              <button
+                type="submit"
+                class="btn btn-dark btn-block"
+                title="Sign Up"
+              >
+                Sign Up
+              </button>
+            </a>
+          </form>
+          <p class="log-in-section">
+            Already have an account?
+            <a href="sign-in.html#sign-in" class="log-in-link" title="Login"
+              >Log in</a
             >
-              Sign Up
-            </button>
-          </a>
-        </form>
-        <p class="sign-in-section">
-          Already have an account?
-          <a href="sign-in.html#sign-in" class="log-in-link" title="Login"
-            >Log in</a
-          >
-        </p>
+          </p>
+        </div>
       </div>
-    </div>
 
-    <footer class="row footer">
-      <div class="col-sm-4" id="about">
-        <h5>About us</h5>
-        <p>
-          This is a fake
-          <a
-            href="https://github.com/Mideolabanji/matchmaking-app"
-            class="black-link"
-            target="_blank"
-            title="Github repository"
-          >
-            open source
-          </a>
-          matchmaking app/website, using fake data, coded by
-          <a
-            href="https://ecstatic-volhard-31db0c.netlify.app/"
-            class="black-link"
-            target="_blank"
-            title="Portfolio"
-          >
-            Olamide Olabanji
-          </a>
-          , a Front-end developer based in Lagos, Nigeria.
-        </p>
-      </div>
-      <div class="col-sm-4" id="contact">
-        <h5>Contact us</h5>
-        <p>
-          <a
-            href="https://ecstatic-volhard-31db0c.netlify.app/"
-            class="black-link"
-            target="_blank"
-            title="Portfolio"
-          >
-            Olamide Olabanji
-          </a>
-          can be contacted at
-          <a href="mailto:olabanjikaosara@yahoo.com" class="email">
-            olabanjikaosara@yahoo.com
-          </a>
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <h5>Socials</h5>
-        <p class="socials">
-          Github:
-          <a href="https://github.com/Mideolabanji" target="_blank">
-            Mideolabanji
-          </a>
-        </p>
-        <p class="socials">
-          Twitter:
-          <a href="https://twitter.com/mideolabanji" target="_blank">
-            mideolabanji
-          </a>
-        </p>
-        <p class="socials">
-          Instagram:
-          <a href="https://instagram.com/mideolabanji" target="_blank">
-            mideolabanji
-          </a>
-        </p>
-      </div>
-    </footer>
+      <footer class="row footer">
+        <div class="col-sm-4" id="about">
+          <h5>About us</h5>
+          <p>
+            This is a fake
+            <a
+              href="https://github.com/Mideolabanji/matchmaking-app"
+              class="black-link"
+              target="_blank"
+              title="Github repository"
+            >
+              open source
+            </a>
+            matchmaking app/website, using fake data, coded by
+            <a
+              href="https://ecstatic-volhard-31db0c.netlify.app/"
+              class="black-link"
+              target="_blank"
+              title="Portfolio"
+            >
+              Olamide Olabanji
+            </a>
+            , a Front-end developer based in Lagos, Nigeria.
+          </p>
+        </div>
+        <div class="col-sm-4" id="contact">
+          <h5>Contact us</h5>
+          <p>
+            <a
+              href="https://ecstatic-volhard-31db0c.netlify.app/"
+              class="black-link"
+              target="_blank"
+              title="Portfolio"
+            >
+              Olamide Olabanji
+            </a>
+            can be contacted at
+            <a href="mailto:olabanjikaosara@yahoo.com" class="email">
+              olabanjikaosara@yahoo.com
+            </a>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5>Socials</h5>
+          <p class="socials">
+            Github:
+            <a href="https://github.com/Mideolabanji" target="_blank">
+              Mideolabanji
+            </a>
+          </p>
+          <p class="socials">
+            Twitter:
+            <a href="https://twitter.com/mideolabanji" target="_blank">
+              mideolabanji
+            </a>
+          </p>
+          <p class="socials">
+            Instagram:
+            <a href="https://instagram.com/mideolabanji" target="_blank">
+              mideolabanji
+            </a>
+          </p>
+        </div>
+      </footer>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
